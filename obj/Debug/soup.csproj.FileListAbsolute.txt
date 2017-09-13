@@ -1,0 +1,15 @@
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\obj\Debug\soup.csprojResolveAssemblyReference.cache
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\soup.exe.config
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\soup.exe
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\soup.pdb
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Newtonsoft.Json.dll
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Twilio.dll
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Newtonsoft.Json.xml
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\bin\Debug\Twilio.xml
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\obj\Debug\soup.exe
+D:\Severiano\Documents\Visual Studio 2015\Projects\soup\obj\Debug\soup.pdb
