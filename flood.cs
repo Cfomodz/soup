@@ -17,8 +17,8 @@ namespace CallBomber
 {
     class Program
     {
-        public static string accountSid = "ACfdfd3a9feffa0640f7496a11046600df";
-        public static string authtoken = "98e77797db01986579392299de594369";
+        public static string accountSid = "";
+        public static string authtoken = "";
         public static List<string> numbers = new List<string>(new string[] { "+14245335186", }); // Replace "" with phone numbers
         public static List<string> numbersInUse = new List<string>();
         public static string NumToCall = "";
