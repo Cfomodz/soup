@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,18 +33,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <HintPath>packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <HintPath>packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <HintPath>packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,17 +56,76 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Twilio, Version=5.5.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Twilio.5.5.1\lib\net451\Twilio.dll</HintPath>
+    <Reference Include="Twilio, Version=5.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Twilio.5.6.2\lib\net451\Twilio.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="App.config" />
+    <None Include="bin\Debug\soup.exe.config" />
+    <None Include="bin\Debug\soup.vshost.exe.config" />
+    <None Include="bin\Debug\soup.vshost.exe.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\soup.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+    <None Include="packages\Microsoft.IdentityModel.Logging.1.1.2\Microsoft.IdentityModel.Logging.1.1.2.nupkg" />
+    <None Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\Microsoft.IdentityModel.Tokens.5.1.2.nupkg" />
+    <None Include="packages\Newtonsoft.Json.10.0.1\Newtonsoft.Json.10.0.1.nupkg" />
+    <None Include="packages\Newtonsoft.Json.10.0.1\tools\install.ps1" />
+    <None Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\System.IdentityModel.Tokens.Jwt.5.1.2.nupkg" />
+    <None Include="packages\Twilio.5.6.2\Twilio.5.6.2.nupkg" />
+    <None Include="PHP\.gitignore" />
+    <None Include="PHP\composer.json" />
+    <None Include="PHP\composer.lock" />
+    <None Include="PHP\flood.php" />
+    <None Include="PHP\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
+    <Content Include="bin\Debug\soup.vshost.exe" />
+    <Content Include="obj\Debug\soup.csproj.FileListAbsolute.txt" />
+    <Content Include="packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Logging.1.1.2\lib\netstandard1.4\Microsoft.IdentityModel.Logging.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.xml" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net20\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net20\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net35\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net35\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net40\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net40\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\netstandard1.0\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\netstandard1.0\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\netstandard1.3\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.10.0.1\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.xml" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.xml" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.xml" />
+    <Content Include="packages\Twilio.5.6.2\lib\net35\Twilio.dll" />
+    <Content Include="packages\Twilio.5.6.2\lib\net35\Twilio.xml" />
+    <Content Include="packages\Twilio.5.6.2\lib\net451\Twilio.dll" />
+    <Content Include="packages\Twilio.5.6.2\lib\net451\Twilio.xml" />
+    <Content Include="packages\Twilio.5.6.2\lib\netstandard1.4\Twilio.dll" />
+    <Content Include="packages\Twilio.5.6.2\lib\netstandard1.4\Twilio.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="flood.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
